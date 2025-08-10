@@ -14,6 +14,8 @@ public interface QuizServices {
 
 	String calculateResult(Integer id, List<Response> responses);
 
+	Integer getCountQuiz();
+
 	
 
 
